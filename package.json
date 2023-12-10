@@ -1,0 +1,26 @@
+{
+  "name": "07-restserver",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "v10.15.3"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "google-auth-library": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.15",
+    "mongoose-unique-validator": "^2.0.3",
+    "underscore": "^1.10.2"
+  }
+}
